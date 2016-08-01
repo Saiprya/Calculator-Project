@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Calculator Project</title>
+	<link href="calculator.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body onload="test()" >
+
+	<div id="calculator">
+		<!-- Screen and clear key -->
+		<div class="top">
+			<button type="button" value=" " class="clear">C</button>
+			<div class="screen"></div>
+		</div>
+
+		<div class="keys">
+			<!-- operators and other keys -->
+
+      <button id="b7" type="button" value="7"><span>7</span></button>
+      <button id="b8" type="button" value="8">	<span>8</span></button>
+      <button id="b9" type="button" value="9">	<span>9</span></button>
+      <button id="bplus" class="operator" type="button" value ="+"><span>+</span></button>
+
+      <button id="b4" type="button" value="4"><span>4</span></button>
+      <button id="b5" type="button" value="5"><span>5</span></button>
+      <button id="b6" type="button" value="6"><span>6</span></button>
+      <button id="bminus" class="operator" type="button" value ="-"><span>-</span></button>
+
+      <button id="b1" type="button" value="1">		<span>1</span></button>
+      <button id="b2" type="button" value="2"><span>2</span></button>
+      <button id="b3" type="button" value="3">	<span>3</span></button>
+      <button id="bdivide" class="operator" type="button" value="/"><span>÷</span></button>
+
+      <button id="b0" type="button" value="0">	<span>0</span></button>
+      <button id="bdec" type="button" value=".">	<span>.</span></button>
+      <button id="beval" class="eval" type="button" value="=" name="eval"><span>=</span></button>
+      <button id="bmult" class="operator" type="button" value="*">	<span>x</span></button>
+
+  	</div>
+  </div>
+  <script src="compute.js"></script>
+	</body>
+</html>
